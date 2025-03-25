@@ -22,7 +22,7 @@ const cartSlice = createSlice({
       } else {
         existingItem.quantity++;
         existingItem.totalPrice += existingItem.price;
-      }  
+      }
     },
     removeItemFromCart(state, action) {
       const id = action.payload;
